@@ -1,0 +1,5 @@
+/cmake-build-debug
+/.idea
+*.dat
+test/Infinica_Logfile_*
+*.exe
