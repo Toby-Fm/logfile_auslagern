@@ -62,7 +62,7 @@ Um die erstellte .exe-Datei als Windows-Dienst hinzuzufügen, führen Sie die fo
     - Verwenden Sie das Windows-Dienstprogramm `sc` (Service Control) zum Erstellen des Dienstes. Ersetzen Sie `<PfadZurExe>` durch den vollständigen Pfad der erstellten .exe-Datei:
 
       ```bash
-      sc create LogFileManagementService binPath= "\"<PfadZurExe>\logfile_auslagern.exe\""
+      sc create logfile_auslagern binPath= "\"<PfadZurExe>\logfile_auslagern.exe\""
       ```
 
 3. **Starten des Dienstes:**
