@@ -15,8 +15,8 @@ Dieses Projekt zielt darauf ab, ein Tool zu entwickeln, das die Größe der Logd
 
 ### Voraussetzungen
 
-- Ein Windows-Server
-- Visual Studio oder ein anderes C++-Entwicklungstool
+- Windows 11 (Wurde nur auf 11 getestet)
+- Visual Studio / CLion oder ein anderes C++-Entwicklungstool
 - Makefile-Unterstützung für Windows (z.B. durch MinGW oder Cygwin)
 
 ## Konfiguration
@@ -121,10 +121,10 @@ Sollten die Befehle zur Dienstinstallation oder -verwaltung nicht sofort funktio
      ```
 
 2. **Dienste-Manager öffnen:**
-   - Gehen Sie auf dem Server zum `Dienste-Manager`. Diesen finden Sie, indem Sie im Startmenü nach `Dienste` suchen oder `services.msc` in der Ausführen-Dialogbox eingeben.
+   - Gehen Sie auf dem Server zum `Dienste-Manager`. Diesen finden Sie, indem Sie im Startmenü nach `Dienste` suchen oder drücken Sie `Win + R` und suchen `services.msc` in der Ausführen-Dialogbox.
 
 3. **Dienst suchen:**
-   - Suchen Sie den neu erstellten Dienst mit dem Namen `LogFileManagementService` in der Liste der Dienste.
+   - Suchen Sie den neu erstellten Dienst mit dem Namen `logfile_auslagern` in der Liste der Dienste.
 
 4. **Dienst manuell starten:**
    - Klicken Sie mit der rechten Maustaste auf den Dienst und wählen Sie `Starten`, um ihn manuell zu starten.
