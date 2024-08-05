@@ -117,7 +117,7 @@ Sollten die Befehle zur Dienstinstallation oder -verwaltung nicht sofort funktio
 1. **Dienst manuell erstellen:**
    - Öffnen Sie die Eingabeaufforderung als Administrator und geben Sie den folgenden Befehl ein:
      ```bash
-     sc create LogFileManagementService binPath= "\"<PfadZurExe>\logfile_auslagern.exe\""
+     sc create logfile_auslagern binPath= "\"<PfadZurExe>\logfile_auslagern.exe\""
      ```
 
 2. **Dienste-Manager öffnen:**
