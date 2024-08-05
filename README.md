@@ -26,10 +26,19 @@ Dieses Projekt zielt darauf ab, ein Tool zu entwickeln, das die Größe der Logd
 ```cpp
 //main.cpp
 (Zeile: 54 -> Name der Datei)
+    std::string vorZeitName = "Neue_Datei_";
+
 (Zeile: 154 -> Verzeichnis wo die Datei liegt)
+    std::string filePath = "C:/test";
+
 (Zeile: 155 -> Name der Logdatei)
+    std::string fileName = "test.txt";
+
 (Zeile: 190 -> Maximale Dateigröße)
+    std::streampos maxSize = 10;
+    
 (Zeile: 200 -> Pause zwischen der Prüfung)
+    std::this_thread::sleep_for(std::chrono::seconds(10));
 ```
 
 ### Schritte zur Erstellung der ausführbaren Datei (.exe)
